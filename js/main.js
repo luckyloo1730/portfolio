@@ -18,14 +18,14 @@ changeTheme.addEventListener("click", function()
     })
 })
 function isMobileDevice() {
-    var mobileDeviceRegex = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Tablet/i;
+    var mobileDeviceRegex = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
     return mobileDeviceRegex.test(navigator.userAgent);
   }
   
   function displayMobileMessage() {
     var message = "Please use a laptop to access this website.";
     alert(message);
-    var redirectUrl = "https://github.com/LuckyLoo1730";
+    var redirectUrl = "https://smilenodes.xyz";
     window.location.href = redirectUrl;
   }
   
