@@ -25,7 +25,7 @@ function isMobileDevice() {
   function displayMobileMessage() {
     var message = "Please use a laptop to access this website.";
     alert(message);
-    var redirectUrl = "https://smilenodes.xyz";
+    var redirectUrl = "https://google.com";
     window.location.href = redirectUrl;
   }
   
