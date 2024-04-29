@@ -12,7 +12,7 @@ let changeTheme = document.querySelector(".theme2")
 changeTheme.addEventListener("click", function()
 {
     document.body.classList.toggle("light")
-    changeTheme.innerHTML = "☀ Light"
+    changeTheme.innerHTML = "☀ Change Theme"
     document.querySelectorAll(".title, .time, .menu").forEach(element => {
         element.classList.toggle("light")
     })
