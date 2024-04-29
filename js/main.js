@@ -18,7 +18,7 @@ changeTheme.addEventListener("click", function()
     })
 })
 function isMobileDevice() {
-    var mobileDeviceRegex = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
+    var mobileDeviceRegex = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Tablet/i;
     return mobileDeviceRegex.test(navigator.userAgent);
   }
   
