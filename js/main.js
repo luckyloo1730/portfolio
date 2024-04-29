@@ -17,3 +17,31 @@ changeTheme.addEventListener("click", function()
         element.classList.toggle("light")
     })
 })
+function isLaptopOrComputer() {
+    var laptopScreenWidths = [1280, 1366, 1440, 1600, 1920];
+    var screenWidth = window.screen.width;
+    if (laptopScreenWidths.includes(screenWidth)) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+  function displayPopupMessage() {
+    var message = "To view this website, please use a laptop or computer.";
+    alert(message);
+  }
+  
+  if (!isLaptopOrComputer()) {
+    displayPopupMessage();
+  }
+function isMobileDevice() {
+    var mobileDeviceRegex = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
+      return mobileDeviceRegex.test(navigator.userAgent);
+  }
+    function redirectMobileUsers() {
+    var redirectUrl = "https://google.com";
+      window.location.href = redirectUrl;
+  }
+  if (isMobileDevice()) {
+    redirectMobileUsers();
+  }
