@@ -32,3 +32,14 @@ function isMobileDevice() {
   if (isMobileDevice()) {
     displayMobileMessage();
   }
+
+
+
+  const timesClicked = document.querySelector("#click");
+  let count = 1;
+  timesClicked.innerHTML = count;
+  
+  timesClicked.addEventListener("click", function() {
+      count++;
+      timesClicked.innerHTML = count;
+  });
