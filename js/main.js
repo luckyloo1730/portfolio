@@ -25,7 +25,7 @@ function isMobileDevice() {
   function displayMobileMessage() {
     var message = "Please use a laptop to access this website.";
     alert(message);
-    var redirectUrl = "https://google.com";
+    var redirectUrl = "https://github.com/LuckyLoo1730";
     window.location.href = redirectUrl;
   }
   
