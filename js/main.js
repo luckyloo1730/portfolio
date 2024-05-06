@@ -17,7 +17,7 @@ changeTheme.addEventListener("click", function()
         element.classList.toggle("light")
     })
 })
-function isMobileDevice() {
+/*function isMobileDevice() {
     var mobileDeviceRegex = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
     return mobileDeviceRegex.test(navigator.userAgent);
   }
@@ -31,15 +31,4 @@ function isMobileDevice() {
   
   if (isMobileDevice()) {
     displayMobileMessage();
-  }
-
-
-
-  const timesClicked = document.querySelector("#click");
-  let count = 1;
-  timesClicked.innerHTML = count;
-  
-  timesClicked.addEventListener("click", function() {
-      count++;
-      timesClicked.innerHTML = count;
-  });
+}*/
