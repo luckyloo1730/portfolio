@@ -1,0 +1,110 @@
+body {
+    background-color: #171717;
+  }
+  
+  .animated {
+    text-align: center;
+    color: orange;
+  }
+  
+  .desc {
+    text-align: center;
+    color: gray;
+    max-width: 50%;
+    margin: 0 auto;
+    font-size: 17px;
+  }
+  
+  .ua {
+    color: yellow;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .js {
+    color: orange;
+  }
+  
+  .dev {
+    color: #03fc66;
+  }
+  
+  .pfp {
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    transition: 0.3s;
+  }
+  
+  .pfp2 {
+    text-align: center;
+  }
+  
+  .pfp:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    margin-top: 5px;
+  }
+  
+  .theme {
+    text-align: left;
+    margin-left: 15px;
+    color: gray;
+    transition: 0.3s;
+  }
+  
+  .theme:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+  }
+  
+  .projects-text {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .projects {
+    border: 2px white solid;
+    width: 15%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5%;
+    transition: 0.3s;
+    padding: 15px;
+    border-radius: 15px;
+  }
+  
+  .projects:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+  }
+  
+  .page {
+    text-decoration: none;
+  }
+  
+  .desc2 {
+    text-align: center;
+    color: gray;
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 17px;
+  }
+
+.projects-list{
+    align-items: center;
+}
+.date{
+    text-align: center;
+    font-size: 15px;
+    color: gray;
+}
+.back{
+    text-align: center;
+    color: gray;
+    transition: 0.3s;
+}

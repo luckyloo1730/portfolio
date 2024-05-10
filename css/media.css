@@ -1,0 +1,34 @@
+@media (max-width: 480px) {
+    .desc,
+    .desc2 {
+      font-size: 14px;
+    }
+  
+    .projects {
+      width: 30%;
+    }
+  }
+  
+  /* Tablets */
+  @media (min-width: 481px) and (max-width: 1024px) {
+    .desc,
+    .desc2 {
+      font-size: 17px;
+    }
+  
+    .projects {
+      width: 20%;
+    }
+  }
+  
+  /* Desktop devices */
+  @media (min-width: 1025px) {
+    .desc,
+    .desc2 {
+      font-size: 17px;
+    }
+  
+    .projects {
+      width: 15%;
+    }
+  }
