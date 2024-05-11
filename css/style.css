@@ -36,17 +36,21 @@ body {
     border-radius: 50%;
     margin: 0 auto;
     transition: 0.3s;
+    cursor: grab;
   }
+  .pfp:hover, .pfp:active {
+    transform: scale(1.1);
+}
+
+.pfp:active {
+    cursor: grabbing;
+    transform: scale(1.2);
+}
   
   .pfp2 {
     text-align: center;
   }
   
-  .pfp:hover {
-    transform: scale(1.1);
-    transition: 0.3s;
-    margin-top: 5px;
-  }
   
   .theme {
     text-align: left;
@@ -107,4 +111,7 @@ body {
     text-align: center;
     color: gray;
     transition: 0.3s;
+}
+footer{
+  margin-top: 15px;
 }
