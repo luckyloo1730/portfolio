@@ -115,3 +115,7 @@ body {
 footer{
   margin-top: 15px;
 }
+.img{
+  height: 70px;
+  border-radius: 50%;
+}
