@@ -58,6 +58,19 @@ anime({
     easing: "linear"
 })
 
+anime({
+    targets: ".contact",
+    color: [
+        {value: "#0091ff"},
+        {value: "#00aeff"},
+        {value: "#00d5ff"},
+        {value: "#0091ff"},
+    ],
+    duration: 4000,
+    loop: true,
+    easing: "linear"
+})
+
 const currentDate = new Date();
 const date = new Date();
 console.log(date);

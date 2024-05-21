@@ -122,3 +122,20 @@ footer{
 .img2{
   height: 70px;
 }
+.center{
+  text-align: center;
+}
+.white{
+  color: white;
+}
+.contact{
+  color: #0091ff;
+}
+.logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.svg{
+  height: 30px;
+}
